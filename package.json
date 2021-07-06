@@ -1,12 +1,14 @@
 {
   "name": "intranet-typsa",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build-doc": "npx compodoc -p tsconfig.doc.json",
+    "show-doc": "compodoc -s -d ./documentation"
   },
   "private": true,
   "dependencies": {
